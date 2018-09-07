@@ -1,4 +1,4 @@
-package pinyin_test
+package jyutping_test
 
 import (
 	"fmt"

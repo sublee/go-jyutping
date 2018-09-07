@@ -1,4 +1,4 @@
-package pinyin
+package jyutping
 
 import (
 	"reflect"

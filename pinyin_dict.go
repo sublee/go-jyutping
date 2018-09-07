@@ -1,4 +1,4 @@
-package pinyin
+package jyutping
 
 // PinyinDict is data map
 // Warning: Auto-generated file, don't edit.
