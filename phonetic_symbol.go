@@ -1,4 +1,4 @@
-package pinyin
+package jyutping
 
 // 带音标字符。
 var phoneticSymbol = map[string]string{

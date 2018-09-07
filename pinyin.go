@@ -1,4 +1,4 @@
-package pinyin
+package jyutping
 
 import (
 	"regexp"
@@ -7,10 +7,10 @@ import (
 
 // Meta
 const (
-	Version   = "0.14.0"
-	Author    = "mozillazg, 闲耘"
+	Version   = "0.14.0-jyutping"
+	Author    = "Heungsub Lee"
 	License   = "MIT"
-	Copyright = "Copyright (c) 2016 mozillazg, 闲耘"
+	Copyright = "Copyright (c) 2018 Heungsub Lee"
 )
 
 // 拼音风格(推荐)

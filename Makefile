@@ -10,11 +10,10 @@ test:
 
 .PHONY: gen_pinyin_dict
 gen_pinyin_dict:
-	@go run _tools/gen_pinyin_dict.go _tools/pinyin-data/pinyin.txt pinyin_dict.go
+	@go run _tools/gen_pinyin_dict.go _tools/jyutping-data/jyutping.txt pinyin_dict.go
 
 .PHONY: lint
 lint:
-	gofmt -s -w . pinyin _tools
+	gofmt -s -w . _tools
 	golint .
-	golint pinyin
 	golint _tools
